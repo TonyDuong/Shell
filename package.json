@@ -1,0 +1,24 @@
+{
+  "name": "sachtony",
+  "version": "1.0.0",
+  "description": "username: sachtony Email: sachtony@outlook.com",
+  "main": "c:/users/sachtony",
+  "dependencies": {
+    "eslint": "^3.13.1",
+    "jshint": "^2.9.4",
+    "multer": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "sachs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "c:/users/sachtony"
+  },
+  "keywords": [
+    "sach"
+  ],
+  "author": "tonyduong email: tonyduong1368@gmail.com",
+  "license": "ISC"
+}
