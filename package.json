@@ -2,7 +2,7 @@
   "name": "sachtony",
   "version": "1.0.0",
   "description": "username: sachtony Email: sachtony@outlook.com",
-  "main": "c:/users/sachtony",
+  "main": "https://github.com/TonyDuong/Books-Organic-/blob/master/package.json",
   "dependencies": {
     "eslint": "^3.13.1",
     "jshint": "^2.9.4",
@@ -14,11 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "c:/users/sachtony"
+    "url": "https://github.com/TonyDuong/Books-Organic-/blob/master/package.json"
   },
   "keywords": [
     "sach"
   ],
-  "author": "tonyduong email: tonyduong1368@gmail.com",
+  "author": "tonyduong email: contact@sachtony.com.com",
   "license": "ISC"
 }
