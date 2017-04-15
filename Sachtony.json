@@ -1,4 +1,4 @@
-  "name": "sachtony",
+,  "name": "sachtony",
   "version": "1.0.0",
   "description": "username: sachtony Email: sachtony@outlook.com",
   "main": "https://github.com/TonyDuong/Books-Organic-/blob/master/package.json",
@@ -18,6 +18,6 @@
   "keywords": [
     "sach"
   ],
-  "author": "tonyduong email: contact@sachtony.com",
+  "author": "tonyduong, email: contact@sachtony.com",
   "license": "ISC"
 }
