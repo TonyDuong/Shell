@@ -1,7 +1,7 @@
   "name": "sachtony",
-  "version": "1.0.0",
+  "version": "2.1.1",
   "description": "username: sachtony Email: sachtony@outlook.com",
-  "main": "https://sachtony.com/",
+  "main": "*.sachtony.com/",
   "dependencies": {
     "eslint": "^3.13.1",
     "jshint": "^2.9.4",
@@ -9,11 +9,11 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "sachs"
+    "test": "sachtony"
   },
   "repository": {
     "type": "git",
-    "url": "https://sachtony.com/"
+    "url": "https://sachtony.com/home"
   },
   "keywords": [
     "sach"
