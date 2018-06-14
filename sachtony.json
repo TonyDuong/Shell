@@ -1,26 +1,26 @@
 {
-  "name": "sachtony",
-  "version": "2.1.1",
-  "description": "username: sachtony Email: contact@sachtony.com",
-  "main": "*.sachtony.com/",
-  "dependencies": {
+  "Name": "Sachtony",
+  "Version": "2.1.1",
+  "Description": "username: sachtony Email: contact@sachtony.com",
+  "Main": "*.sachtony.com/",
+  "Dependencies": {
     "eslint": "^3.13.1",
     "jshint": "^2.9.4",
     "multer": "^1.2.1"
   },
-  "devDependencies": {},
+  "DevDependencies": {},
   "scripts": {
-    "test": "sachtony"
+    "test": "Sachtony"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/TonyDuong/Sachtony-Group"
   },
   "keywords": [
-    "sachtony"
+    "Sachtony"
   ],
   "author": {
-  "Nickname": "tonyduong",
+  "Nickname": "TonyDuong",
   "email": "contact@sachtony.com",
   "firstName": "Ngoc linh",
   "lastName": "Duong",
