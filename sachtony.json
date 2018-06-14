@@ -1,7 +1,7 @@
 {
   "name": "sachtony",
   "version": "2.1.1",
-  "description": "username: sachtony Email: contact@sachtony.com",
+  "description": "username: sachtony Email: contact@sachtony.com"
   "main": "*.sachtony.com/",
   "dependencies": {
     "eslint": "^3.13.1",
