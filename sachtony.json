@@ -1,3 +1,4 @@
+{
   "name": "sachtony",
   "version": "2.1.1",
   "description": "username: sachtony Email: contact@sachtony.com",
@@ -18,6 +19,29 @@
   "keywords": [
     "sach"
   ],
-  "author": "tonyduong, email: contact@sachtony.com",
-  "license": "ISC"
+  "author": {
+  "tonyduong, email: contact@sachtony.com",
+  "firstName": "Ngoc linh",
+  "lastName": "Duong",
+  "isAlive": true,
+  "age": 36,
+  "address": {
+    "streetAddress": "Phúc minh village",
+    "city": "Quảng ngãi",
+    "state": "QN",
+    "postalCode": "572950",
+    "phoneNumbers": [
+    "type": "home",
+    "number": "0919070516"
+    "type": "office",
+    "number": "0919070516"
+    "type": "mobile",
+    "number": "0919070516"
+    ],
+  "children": [],
+  "spouse": null
+  },
+  "license": {
+  "ISC"
+  },
 }
