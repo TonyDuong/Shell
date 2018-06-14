@@ -25,6 +25,7 @@
   "lastName": "Duong",
   "isAlive": true,
   "age": 36,
+  },
   "address": {
     "streetAddress": "Phúc minh village",
     "city": "Quảng ngãi",
