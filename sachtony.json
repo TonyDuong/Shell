@@ -2,16 +2,7 @@
   "Name": "Sachtony",
   "Version": "2.1.1",
   "Description": "username: sachtony Email: contact@sachtony.com",
-  "Main": "sachtony.com",
-  "Dependencies": {
-    "eslint": "^3.13.1",
-    "jshint": "^2.9.4",
-    "multer": "^1.2.1"
-  },
-  "DevDependencies": {},
-  "scripts": {
-    "Home": "Sachtony"
-  },
+  "Domain": "sachtony.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/TonyDuong/Sachtony-Group"
@@ -33,10 +24,8 @@
     "streetAddress": "Phúc minh village",
     "city": "Quảng ngãi",
     "state": "QN",
-    "postalCode": "572950",
-  "children": [],
-  "spouse": null
-  },
+    "postalCode": "Option",
+   },
   "license": {
   "Microsoft"
   },
