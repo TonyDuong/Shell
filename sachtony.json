@@ -1,6 +1,6 @@
 {
   "Name": "Sachtony",
-  "Description": "username: sachtony Email: contact@sachtony.com",
+  "Description": "username: sachtony",
   "Main": "sachtony.com",
   "repository": {
     "type": "git",
@@ -12,6 +12,13 @@
     "tony"
     "sachtony"
   ],
+ "Owner": {
+  "Organization": "Công ty TNHH Sachtony",
+  "email": "contact@sachtony.com",
+  "Foreign names": "Sachtony Company Limited",
+  "Country": "Vietnam",
+  "isAlive": true,
+  },
   "author": {
   "Nickname": "TonyDuong",
   "email": "duongngoclinh.htd@gmail.com",
