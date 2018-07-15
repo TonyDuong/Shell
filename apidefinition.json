@@ -1,7 +1,2 @@
-package apidefinition;
-class api {
-  public static void main (string [] args) {
-    system.out.println("API Sachtony")
-    }
-  }
+
 
