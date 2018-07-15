@@ -2,7 +2,7 @@
   "Name": "Sachtony",
   "Version": "2.1.1",
   "Description": "username: sachtony Email: contact@sachtony.com",
-  "Main": "*.sachtony.com/",
+  "Main": "sachtony.com",
   "Dependencies": {
     "eslint": "^3.13.1",
     "jshint": "^2.9.4",
@@ -10,7 +10,7 @@
   },
   "DevDependencies": {},
   "scripts": {
-    "test": "Sachtony"
+    "Home": "Sachtony"
   },
   "repository": {
     "type": "git",
