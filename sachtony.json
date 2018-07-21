@@ -4,25 +4,24 @@
   "Main": "sachtony.com",
   "repository": {
     "type": "git",
-    "url": "https://github.sachtony.com/"
+    "url": "https://tonyduong.sachtony.com/"
   },
   "keywords": [
-    "Sach tony"
-    "sach"
-    "tony"
-    "sachtony"
+    "Sach tony", "sach", "tony", "sachtony" 
   ],
  "Owner": {
-  "Organization": "Công ty TNHH Sachtony",
+  "Organization Parent": "Công ty TNHH Sachtony",
   "email": "contact@sachtony.com",
   "Foreign names": "Sachtony Company Limited",
   "Country": "Vietnam",
+  "joint stock company" Sachtony Group
   "isAlive": true,
   },
   "author": {
   "Nickname": "TonyDuong",
   "email": "duongngoclinh.htd@gmail.com",
   "firstName": "Ngoc linh",
+  "Middle":"Ngọc",
   "lastName": "Duong",
   "isAlive": true,
   },
