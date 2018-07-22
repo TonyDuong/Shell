@@ -7,7 +7,7 @@
     "url": "https://tonyduong.sachtony.com/"
   },
   "keywords": [
-    "Sach tony", "sach", "tony", "sachtony" 
+    "Sach tony; sach; tony; sachtony; sách; book; books; sản phẩm sạch, san pham sach, cà phê tony" 
   ],
  "Owner": {
   "Organization Parent": "Công ty TNHH Sachtony",
@@ -15,7 +15,7 @@
   "Foreign names": "Sachtony Company Limited",
   "Country": "Vietnam",
   "joint stock company" "Sachtony Group"
-  "isAlive": true,
+  "SachtonyOwner": true,
   },
   "author": {
   "Nickname": "TonyDuong",
@@ -23,7 +23,7 @@
   "firstName": "linh",
   "Middle":"Ngoc",
   "lastName": "Duong",
-  "isAlive": true,
+  "SachtonyAuthor": true,
   },
   "address": {
     "streetAddress": "Phúc minh village",
