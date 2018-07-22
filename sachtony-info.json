@@ -32,6 +32,6 @@
     "postalCode": "",
    },
   "license": {
-  "Microsoft"
+  "ISC; Microsoft"
   },
 }
