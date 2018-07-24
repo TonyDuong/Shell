@@ -17,13 +17,13 @@
   "joint stock company" "Sachtony Group"
   "SachtonyOwner": true,
   },
-  "author": {
+  "Founder": {
   "Nickname": "TonyDuong",
   "email": "duongngoclinh.htd@gmail.com",
   "firstName": "linh",
   "Middle":"Ngoc",
   "lastName": "Duong",
-  "SachtonyAuthor": true,
+  "SachtonyFounder": true,
   },
   "address": {
     "streetAddress": "Phúc minh village",
