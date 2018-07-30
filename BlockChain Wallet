@@ -1,0 +1,43 @@
+{
+  "guid": "464421d8-8daa-4687-8b80-8a9408218718",
+  "address": "1KgcRVRVa3ZTBaqz9fPjNzGU9gPedVtuD7",
+  "label": "Main address"
+};
+
+{ "to" : ["1KgcRVRVa3ZTBaqz9fPjNzGU9gPedVtuD7"],
+  "from": ["17p49XUC2fw4Fn53WjZqYAm4APKqhNPEkY"],
+  "amounts": [200000],
+  "fee": 1000,
+  "txid": "f322d01ad784e5deeb25464a5781c3b20971c1863679ca506e702e3e33c18e9c",
+  "success": true
+};
+var myObject = { address1: 10000, address2: 50000 };
+var myJSONString = JSON.stringify(myObject);
+// `encodeURIComponent` is a global function
+var myURIEncodedJSONString = encodeURIComponent(myJSONString);
+// use `myURIEncodedJSONString` as the `recipients` parameter
+
+{
+  "to" : ["1Czy4f2HtWwdaRyq2wemQjqU4V7QRGCNsU", "1KgcRVRVa3ZTBaqz9fPjNzGU9gPedVtuD7"],
+  "from": ["17p49XUC2fw4Fn53WjZqYAm4APKqhNPEkY"],
+  "amounts": [16000, 5400030],
+  "fee": 2000,
+  "txid": "f322d01ad784e5deeb25464a5781c3b20971c1863679ca506e702e3e33c18e9c",
+  "success": true
+};
+
+{
+  "addresses": [
+    {
+        "balance": 79434360,
+        "address": "1Czy4f2HtWwdaRyq2wemQjqU4V7QRGCNsU",
+        "label": "My Wallet",
+        "total_received": 453300048335
+    },
+    {
+        "balance": 0,
+        "address": "1KgcRVRVa3ZTBaqz9fPjNzGU9gPedVtuD7",
+        "total_received": 0
+    }
+  ]
+}
