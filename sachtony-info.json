@@ -1,7 +1,7 @@
 {
   "Name": "Sachtony",
-  "Description": "username: sachtony",
-  "Main": "sachtony.com",
+  "Description": "Sachtony Global Company",
+  "Main": String(),
   "repository": {
     "type": "git",
     "url": "https://tonyduong.sachtony.com/"
