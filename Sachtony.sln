@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27703.2047
+VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sachtony", "Sachtony\Sachtony.csproj", "{67A02238-B593-44BC-AA8D-6344DA68955B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sachtony", "Sachtony\Sachtony.csproj", "{D0181ACE-578E-4BEA-8FB6-3C16CF06EBAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{67A02238-B593-44BC-AA8D-6344DA68955B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67A02238-B593-44BC-AA8D-6344DA68955B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67A02238-B593-44BC-AA8D-6344DA68955B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67A02238-B593-44BC-AA8D-6344DA68955B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0181ACE-578E-4BEA-8FB6-3C16CF06EBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0181ACE-578E-4BEA-8FB6-3C16CF06EBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0181ACE-578E-4BEA-8FB6-3C16CF06EBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0181ACE-578E-4BEA-8FB6-3C16CF06EBAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {29C65A1A-BDB2-40D2-A902-64FDBDCD89E9}
+		SolutionGuid = {F0B6BF93-0A1C-40DD-8779-4F9FC5B2B5B1}
 	EndGlobalSection
 EndGlobal
