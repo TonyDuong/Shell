@@ -11,6 +11,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blogging", "Blogging\Bloggi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stores", "Stores\Stores.csproj", "{CE4C6BD3-5B18-4848-81E3-7C05CE560FE0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sCloud", "sCloud\sCloud.csproj", "{5CC2D117-CC9B-4613-91C0-DB927273B45A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisioAddIn", "VisioAddIn\VisioAddIn.csproj", "{67F5103A-0FC2-4AC2-87B1-7078786656B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWebAddIn", "ExcelWebAddIn\ExcelWebAddIn.csproj", "{789E66C2-7310-4E8D-933C-22F325E6AA8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWebAddInWeb", "ExcelWebAddInWeb\ExcelWebAddInWeb.csproj", "{30F21177-38A9-4F36-BC5C-478E2A722C98}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "CloudSach", "CloudSach\CloudSach.deployproj", "{F7F097CA-7CCB-4416-A7AB-F5B116FA1727}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +43,28 @@ Global
 		{CE4C6BD3-5B18-4848-81E3-7C05CE560FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE4C6BD3-5B18-4848-81E3-7C05CE560FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE4C6BD3-5B18-4848-81E3-7C05CE560FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC2D117-CC9B-4613-91C0-DB927273B45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC2D117-CC9B-4613-91C0-DB927273B45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC2D117-CC9B-4613-91C0-DB927273B45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC2D117-CC9B-4613-91C0-DB927273B45A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F5103A-0FC2-4AC2-87B1-7078786656B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F5103A-0FC2-4AC2-87B1-7078786656B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F5103A-0FC2-4AC2-87B1-7078786656B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F5103A-0FC2-4AC2-87B1-7078786656B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{789E66C2-7310-4E8D-933C-22F325E6AA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{789E66C2-7310-4E8D-933C-22F325E6AA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{789E66C2-7310-4E8D-933C-22F325E6AA8A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{789E66C2-7310-4E8D-933C-22F325E6AA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{789E66C2-7310-4E8D-933C-22F325E6AA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{789E66C2-7310-4E8D-933C-22F325E6AA8A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{30F21177-38A9-4F36-BC5C-478E2A722C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F21177-38A9-4F36-BC5C-478E2A722C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F21177-38A9-4F36-BC5C-478E2A722C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F21177-38A9-4F36-BC5C-478E2A722C98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F097CA-7CCB-4416-A7AB-F5B116FA1727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F097CA-7CCB-4416-A7AB-F5B116FA1727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F097CA-7CCB-4416-A7AB-F5B116FA1727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F097CA-7CCB-4416-A7AB-F5B116FA1727}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
