@@ -21,19 +21,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWebAddInWeb", "ExcelWe
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "CloudSach", "CloudSach\CloudSach.deployproj", "{F7F097CA-7CCB-4416-A7AB-F5B116FA1727}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseLands", "HouseLands\HouseLands.csproj", "{64789BA6-1D08-4BB8-8C21-605BCF90A055}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseLands", "HouseLands\HouseLands.csproj", "{64789BA6-1D08-4BB8-8C21-605BCF90A055}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryBanks", "FactoryBanks\FactoryBanks.csproj", "{576B1A04-741B-4CD2-9008-3E4D7C32BF9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryBanks", "FactoryBanks\FactoryBanks.csproj", "{576B1A04-741B-4CD2-9008-3E4D7C32BF9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movexe", "Movexe\Movexe.csproj", "{8CC47D5A-099C-4B2A-A8E8-FD082BA8C4B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movexe", "Movexe\Movexe.csproj", "{8CC47D5A-099C-4B2A-A8E8-FD082BA8C4B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StcNews", "StcNews\StcNews.csproj", "{74F39762-2327-4D47-A9DE-F414885CD193}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StcNews", "StcNews\StcNews.csproj", "{74F39762-2327-4D47-A9DE-F414885CD193}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vietnamweb", "Vietnamweb\Vietnamweb.csproj", "{9DCF7A78-65EF-4BF4-8CD3-C90016F42C8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vietnamweb", "Vietnamweb\Vietnamweb.csproj", "{9DCF7A78-65EF-4BF4-8CD3-C90016F42C8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StcMail", "StcMail\StcMail.csproj", "{8CF4E035-BA9B-4506-A7D8-0A1C6CCCD311}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StcMail", "StcMail\StcMail.csproj", "{8CF4E035-BA9B-4506-A7D8-0A1C6CCCD311}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sChat", "sChat\sChat.csproj", "{E8D887C9-BA09-418B-A3B3-79F849355B54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sChat", "sChat\sChat.csproj", "{E8D887C9-BA09-418B-A3B3-79F849355B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRVote", "SignalRVote\SignalRVote.csproj", "{14B1925C-4EAC-4ACE-92B8-C72842232819}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +109,10 @@ Global
 		{E8D887C9-BA09-418B-A3B3-79F849355B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8D887C9-BA09-418B-A3B3-79F849355B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8D887C9-BA09-418B-A3B3-79F849355B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B1925C-4EAC-4ACE-92B8-C72842232819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B1925C-4EAC-4ACE-92B8-C72842232819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B1925C-4EAC-4ACE-92B8-C72842232819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B1925C-4EAC-4ACE-92B8-C72842232819}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
