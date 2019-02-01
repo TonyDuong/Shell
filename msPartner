@@ -1,0 +1,10 @@
+public IAggregatePartner getAppPartnerOperations()
+{
+    IPartnerCredentials appCredentials =
+        PartnerCredentials.getInstance().generateByApplicationCredentials(
+        PartnerApplicationConfiguration.getApplicationId(),
+        PartnerApplicationConfiguration.getApplicationSecret(),
+        PartnerApplicationConfiguration.getApplicationDomain());
+
+    return PartnerService.getInstance().createPartnerOperations( appCredentials );
+}
