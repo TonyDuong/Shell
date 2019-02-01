@@ -1,10 +1,2 @@
-public IAggregatePartner getAppPartnerOperations()
-{
-    IPartnerCredentials appCredentials =
-        PartnerCredentials.getInstance().generateByApplicationCredentials(
-        PartnerApplicationConfiguration.getApplicationId(),
-        PartnerApplicationConfiguration.getApplicationSecret(),
-        PartnerApplicationConfiguration.getApplicationDomain());
-
-    return PartnerService.getInstance().createPartnerOperations( appCredentials );
-}
+$credential = Get-Credential
+Connect-PartnerCenter -Credential $credential -ServicePrincipal -TenantId 'f0fae2c0-c182-45fa-87b9-4d2bab321dc5'
