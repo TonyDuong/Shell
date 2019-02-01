@@ -1,2 +1,12 @@
 $credential = Get-Credential
 Connect-PartnerCenter -Credential $credential -ServicePrincipal -TenantId 'f0fae2c0-c182-45fa-87b9-4d2bab321dc5'
+
+Connect-AzureAD
+
+$SessionInfo = Get-AzureADCurrentSessionInfo
+
+$app = New-AzureADApplication -DisplayName 'My Vault Access App' -IdentifierUris 'https://$($SessionInfo.TenantDomain)/$((New-Guid).ToString())'
+$password = New-AzureADApplicationPasswordCredential -ObjectId $app.ObjectId
+
+Write-Host "ApplicationId       = $($app.AppId)"
+Write-Host "ApplicationSecret   = $($password.Value)"
