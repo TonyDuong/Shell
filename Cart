@@ -1,0 +1,15 @@
+# $customerId
+# $subscriptionId
+# $catalogItemId
+
+$lineItem = New-Object -TypeName Microsoft.Store.PartnerCenter.PowerShell.Models.Carts.PSCartLineItem
+
+$lineItem.BillingCycle = 'OneTime'
+$lineItem.CatalogItemId = $catalogItemId
+$lineItem.FriendlyName = 'Sample RI Purchase'
+$lineItem.ProvisioningContext.Add('duration', '1Year')
+$lineItem.ProvisioningContext.Add('scope', 'shared')
+$lineItem.ProvisioningContext.Add('subscriptionId', $subsciptionId)
+$lineItem.Quantity = 10
+
+New-PartnerCustomerCart -CustomerId $customerId -LineItems $lineItem
