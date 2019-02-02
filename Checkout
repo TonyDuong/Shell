@@ -1,0 +1,4 @@
+# $customerId
+# $cartId
+
+Submit-PartnerCustomerCart -CartId $cartId -CustomerId $customerId
