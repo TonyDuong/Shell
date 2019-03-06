@@ -1,0 +1,6 @@
+New-AzVm `
+    -ResourceGroupName "myResourceGroup" `
+    -Name "myVM" `
+    -Location "East US" `
+    -ImageName "Win2016Datacenter" `
+    -LicenseType "Windows_Server"
