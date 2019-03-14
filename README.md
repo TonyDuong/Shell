@@ -1,10 +1,15 @@
-#SachtonyGroup
-Sachtony is a community project, website development, app. An e-commerce company, starting with the idea of a web site introducing books to the community and developing a technology company. Component projects:
-Stores,
-Coffee,
-Vietnamweb,
-HouseLands,
-FactoryBanks,
-Pay,
-Movexe,
-STCNews,
+#Sachtony
+Sachtony is a a technology company. Provide solutions to:
+Store,
+Marketing,
+web,
+Apps,
+Financial,
+Software,
+Telecom,
+News,
+Oil and Gas,
+Non-profit,
+Divice,
+Education,
+High-tech Agriculture (Farm),
