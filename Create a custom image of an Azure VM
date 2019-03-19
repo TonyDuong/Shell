@@ -1,0 +1,37 @@
+//Get the virtual machine
+$vm = Get-AzVM `
+   -Name myVM `
+   -ResourceGroupName myResourceGroup
+
+//Create the image configuration
+$image = New-AzImageConfig `
+   -Location EastUS `
+   -SourceVirtualMachineId $vm.ID
+
+//Create the image
+New-AzImage `
+   -Image $image `
+   -ImageName myImage `
+   -ResourceGroupName myResourceGroup
+
+//creates a VM named myVMfromImage from the myImage image, in myResourceGroup.
+New-AzVm `
+    -ResourceGroupName "myResourceGroup" `
+    -Name "myVMfromImage" `
+	-ImageName "myImage" `
+    -Location "East US" `
+    -VirtualNetworkName "myImageVnet" `
+    -SubnetName "myImageSubnet" `
+    -SecurityGroupName "myImageNSG" `
+    -PublicIpAddressName "myImagePIP" `
+    -OpenPorts 3389
+    
+   //Image management
+//List all images by name
+$images = Get-AzResource -ResourceType Microsoft.Compute/images 
+$images.name
+
+//Delete an image. This example deletes the image named myImage from the myResourceGroup
+Remove-AzImage `
+    -ImageName myImage `
+	-ResourceGroupName myResourceGroup
